@@ -1,0 +1,1 @@
+c:\anaconda3\python plot_data.py %1

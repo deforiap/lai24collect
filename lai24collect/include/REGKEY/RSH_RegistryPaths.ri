@@ -1,0 +1,27 @@
+/*!
+ *
+ * \file RSH_RegistryPaths.ri
+ * \date 26.12.2015
+ * \version 1.0 [SDK 2.1]
+ *
+ * \~english
+ * \brief
+ * This file contains Windows registry paths for regsvr32 service
+ *
+ * \~russian
+ * \brief
+ * В этом файле содержатся константы путей в реестре Windows для regsvr32
+ */
+ 
+//define version (2.0 for SDK 2.n)
+#define VersionName "2.0"
+
+//old registry branch to maintain some compatibility with SDK1
+#define CompanyName "Virtual Tools LTD"
+
+#define ProductNameLibrary "Base library"
+#define ProductNameDRV "Drivers"
+
+#define RSH_KEY_PATH_DRV CompanyName "\\" ProductNameDRV "\\" VersionName 
+#define RSH_KEY_PATH_LIBRARY CompanyName "\\" ProductNameLibrary "\\" VersionName 
+#define RSH_KEY_PATH_DPA CompanyName "\\" ProductNameLibrary "\\" VersionName "\\DPA" 
